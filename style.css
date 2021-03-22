@@ -80,7 +80,8 @@ ul, ol{
 }
 
 .header-link:hover{
-    text-decoration: underline;
+    background-color: white;
+    color: red;
 }
 
 .header .container{
@@ -111,6 +112,11 @@ ul, ol{
     padding: 15px 20px;
     background-color: #F0544C;
     border-radius: 5px;
+}
+
+.info-link:hover{
+    background-color: white;
+    color: red;
 }
 
 .info-mini-text{
@@ -175,7 +181,7 @@ ul, ol{
     height: 500px;
     background-repeat: no-repeat;
     background-position: right;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 
@@ -184,7 +190,7 @@ ul, ol{
     display: flex;
     flex-direction: column;
     width: 45%;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 .beautiful-page-title{
@@ -216,6 +222,10 @@ ul, ol{
     font-size: 18px;
     color: #19191B;
     font-weight: bold;
+}
+
+.fitting-page{
+    padding-top: 100px;
 }
 
 .fitting-page .container{
@@ -411,6 +421,12 @@ ul, ol{
     color: white;
 }
 
+.pricing-info-link:hover{
+    background-color: rgb(226, 223, 223);
+    color: red;
+
+}
+
 .trial{
     background-color: #19191B;
     position: relative;
@@ -487,6 +503,11 @@ ul, ol{
     background-color: #5454D4;
 }
 
+.trial-footer-link:hover{
+    background-color: rgb(197, 196, 196);
+    color: blue;
+}
+
 .trial-info{
     padding-top: 350px;
     display: flex;
@@ -542,6 +563,11 @@ ul, ol{
     background-color: #F0544C;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.trial-footer-start-link:hover{
+    background-color: white;
+    color: red;
 }
 
 .trial-footer-card{
