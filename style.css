@@ -50,7 +50,7 @@ ol {
 
 .nav-list {
     display: flex;
-    padding-left: 800px;
+    align-items: center;
 }
 
 .nav-item {
@@ -64,7 +64,6 @@ ol {
 
 .nav-link::after {
     content: "";
-
 }
 
 .nav-link:hover {
@@ -94,6 +93,15 @@ ol {
 
 .header-info {
     width: 45%;
+    padding-bottom: 20px;
+}
+
+.menu{
+    display: none;
+}
+
+.bars-icon{
+    padding: 2px;
 }
 
 .info-title {
@@ -1031,6 +1039,10 @@ ol {
         margin: 0 auto;
     }
 
+    .header-link{
+        display: none;
+    }
+
     .container{
         width: 400px;
         margin: 0 auto;
@@ -1070,6 +1082,14 @@ ol {
     .container-fluid{
         width: 97%;
         margin: 0 auto;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .menu{
+        display: inline-block;
     }
 
     .container{
