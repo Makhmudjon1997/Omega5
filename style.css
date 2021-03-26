@@ -1072,7 +1072,13 @@ ol {
 
     .footer-item{
         width: 40%;
+        margin: 20px 0;
     }
+
+    .trial-footer-box{
+        padding: 50px;
+    }
+
 }
 
 /* OK */
@@ -1095,6 +1101,21 @@ ol {
     .container{
         width: 97%;
         margin: 0 auto;
+    }
+
+    .trial-footer-box{
+        padding: 50px;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+
+    .footer-item{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        margin: 20px 0;
     }
 
 }
